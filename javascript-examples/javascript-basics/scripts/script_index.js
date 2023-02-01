@@ -2,6 +2,16 @@
  * Immediately invokable function
  */
 (function () {
+    /*
+     * Check out this object in console, has LOTS of properties
+     * See: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
+     * on prototype chains to understand better.
+     * Try:
+     *     Object.getPrototypeOf(obj);
+     *     Object.getOwnPropertyNames(obj);
+     *     Object.getOwnPropertyDescriptors(obj);
+     */
+
     var obj = {
         course: "CINF301",
         loveit: {
